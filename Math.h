@@ -131,7 +131,7 @@ void Multiply_4x4( /*IN,OUT*/Matrix_4x4* m, /*IN*/double d );
 
 /// <summary>Calculates the Determinant from a 4x4 transposed CoFactor matrix</summary>
 /// <param name="m">a pointer to a 4x4 matrix</param>
-/// <param name="DetMatrix">a pointer to a 4x4 Determinant matrix</param>
+/// <param name="TransposeMatOfCoFactors">a pointer to a 4x4 Determinant matrix</param>
 /// <returns>returns Determinant</returns>
 double DeterminantFromTransposedMatrixOfCofactors_4x4( /*IN*/Matrix_4x4* m, /*IN*/Matrix_4x4* TransposeMatOfCoFactors );
 
@@ -269,7 +269,7 @@ double Determinant_3x3( /*IN*/Matrix* m )
 
 /// <summary>Calculates the Determinant from a 3x3 transposed CoFactor matrix</summary>
 /// <param name="m">a pointer to a 3x3 matrix</param>
-/// <param name="DetMatrix">a pointer to a 3x3 transposed CoFactor matrix</param>
+/// <param name="TransposeMatOfCoFactors">a pointer to a 3x3 transposed CoFactor matrix</param>
 /// <returns>returns Determinant</returns>
 double DeterminantFromTransposedMatrixOfCofactors_3x3( /*IN*/Matrix* m, /*OUT*/Matrix* TransposeMatOfCoFactors )
 {
@@ -826,7 +826,7 @@ void Multiply_4x4( /*IN,OUT*/Matrix_4x4* m, /*IN*/double d )
 
 /// <summary>Calculates the Determinant from a 4x4 transposed CoFactor matrix</summary>
 /// <param name="m">a pointer to a 4x4 matrix</param>
-/// <param name="DetMatrix">a pointer to a 4x4 Determinant matrix</param>
+/// <param name="TransposeMatOfCoFactors">a pointer to a 4x4 Determinant matrix</param>
 /// <returns>returns Determinant</returns>
 double DeterminantFromTransposedMatrixOfCofactors_4x4( /*IN*/Matrix_4x4* m, /*IN*/Matrix_4x4* TransposeMatOfCoFactors )
 {
